@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> [Laplace][laplace-distribution] distribution logarithm of probability density function (PDF).
+> [Laplace][laplace-distribution] distribution natural logarithm of probability density function (PDF).
 
 <section class="intro">
 
@@ -88,7 +88,7 @@ var logpdf = require( '@stdlib/stats-base-dists-laplace-logpdf' );
 
 #### logpdf( x, mu, b )
 
-Evaluates the logarithm of the [probability density function][pdf] (PDF) for a [Laplace][laplace-distribution] distribution with parameters `mu` (location parameter) and `b > 0` (scale parameter).
+Evaluates the natural logarithm of the [probability density function][pdf] (PDF) for a [Laplace][laplace-distribution] distribution with parameters `mu` (location parameter) and `b > 0` (scale parameter).
 
 ```javascript
 var y = logpdf( 2.0, 0.0, 1.0 );
@@ -208,7 +208,7 @@ logEachMap( 'x: %0.4f, µ: %0.4f, b: %0.4f, ln(f(x;µ,b)): %0.4f', x, mu, b, log
 
 #### stdlib_base_dists_laplace_logpdf( x, mu, b )
 
-Evaluates the logarithm of the probability density function (PDF) for a Laplace distribution with location parameter `mu` and scale parameter `b` at a value `x`.
+Evaluates the natural logarithm of the probability density function (PDF) for a Laplace distribution with location parameter `mu` and scale parameter `b` at a value `x`.
 
 ```c
 double out = stdlib_base_dists_laplace_logpdf( 2.0, 0.0, 1.0 );
